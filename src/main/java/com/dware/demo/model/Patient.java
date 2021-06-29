@@ -8,9 +8,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 
-/**
- * JPA Animal object.  Includes an example of many to one relationships.
- */
 @Document("patient")
 public class Patient implements Serializable {
 	
